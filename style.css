@@ -1,0 +1,146 @@
+.nav-link{
+    font-family: Merriweather, serif;
+    font-weight:bolder;
+    font-size: larger;
+    color: #27445D;
+}
+.nav-link:hover{
+    font-family: Merriweather, serif;
+    font-weight:500;
+    color: #71BBB2;
+}
+.heading{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #27445D;
+}
+.sub-heading{
+    font-family: Merriweather, serif;
+    font-weight:500;
+    color: #497D74; 
+}
+.heading-img{
+    float: right;
+}
+#about{
+    background-color: #71BBB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 30px;
+}
+.greeting{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #27445D;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.my-photo{
+    margin-top: 60px;
+}
+.who-is-me{
+    font-family: Merriweather, serif;
+    color: #FFF2F2;
+    padding-bottom: 60px;
+}
+#skills{
+    background-color: #27445D;
+    display: flex;
+}
+.row{
+    padding-top: 30px;
+}
+.skills-title{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #71BBB2;
+    text-align: center;
+    padding-top: 80px;
+}
+.skill-name{
+    font-family: Merriweather, serif;
+    color: #497D74;
+}
+.skill-description{
+    font-family: Merriweather, serif;
+    color: #EFE9D5;
+}
+.portfolio-btn{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#71BBB2;
+    color: #EFE9D5;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.portfolio-btn:hover{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#EFE9D5;
+    color: #71BBB2;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.last-skill{
+    padding-bottom: 30px;
+}
+@media (max-width:500px){
+    .last-skill{
+      flex-direction: column;
+    }
+    .col > img{
+        padding-bottom: 18px;
+    }
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-title{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #27445D;
+    padding-top: 80px;
+}
+.contact-sub-title{
+    font-family: Merriweather, serif;
+    color: #497D74;
+}
+.contact-message{
+    font-family: Merriweather, serif;
+    color: #27445D;
+}
+.contact-btn{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    background-color:#71BBB2;
+    color: #EFE9D5;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.contact-btn:hover{
+    color:#27445D;
+}
+#socials{
+    background-color: #497D74;
+}
+.footer-items > .nav-item > a{
+    color: #EFE9D5;
+}
+.copyright{
+    color: #27445D;
+}
